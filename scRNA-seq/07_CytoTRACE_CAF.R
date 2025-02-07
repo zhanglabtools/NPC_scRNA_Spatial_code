@@ -1,0 +1,17 @@
+library(reticulate)
+library(CytoTRACE)
+library(Seurat)
+
+data <- read.csv('E:\\CAF\\save\\CAF_data.csv',header=TRUE,row.names = 'X')
+data = t(data)
+data_pheno = read.table('E:\\CAF\\save\\CAF_meta.csv',sep=',',header=TRUE,row.names = 'X')
+pheno = as.character(data_pheno$sub_class)
+names(pheno) = rownames(data_pheno)
+table(pheno) 
+
+harmony_embed = read.csv('E:\\CAF\\save\\X_pca_harmony.csv',row.names = 'X')
+harmony_umap = read.csv('E:\\CAF\\save\\X_umap.csv',row.names = 'X')
+data_matrix = as.matrix(data)
+data_results <- CytoTRACE(mat = data_matrix)
+plotCytoTRACE(data_results, phenotype = pheno, emb=harmony_umap, outputDir = "CAF")
+plotCytoGenes(data_results, numOfGenes = 20)
