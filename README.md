@@ -8,13 +8,13 @@ For data access, please visit: https://ngdc.cncb.ac.cn/, the BioProject ID is PR
 
 Below is the specific content introduction of the code file：
 
-RNA-seq:
+**RNA-seq:**
 
 01: Deconv for bulk RNA-seq
 
 02: Survival analysis
 
-scRNA-seq:
+**scRNA-seq:**
 
 01: Load scRNA-seq data data and preprocess
 
@@ -32,7 +32,7 @@ scRNA-seq:
 
 07: CytoTRACE (Cellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression) analysis for CAF
 
-Spatial transcriptomics:
+**Spatial transcriptomics:**
 
 01: Progeny (Pathway RespOnsive GENes for activity inference) for spatial data
 
