@@ -1,7 +1,9 @@
 # NPC_scRNA_ST_code
 Data Analysis Process of "Single-cell and spatial transcriptomics reveal the molecular and histological mechanisms of radioresistance and immune escape in recurrent nasopharyngeal carcinoma".
 
-For data access, please visit: https://ngdc.cncb.ac.cn/, the BioProject ID is PRJCA015229.
+For citation or to learn more, please visit our article: xxxx
+
+For data access, please visit: https://ngdc.cncb.ac.cn/, the BioProject ID is PRJCA015229. <br><br><br>
 
 
 Below is the specific content introduction of the code file：
