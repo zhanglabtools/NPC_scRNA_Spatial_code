@@ -3,7 +3,9 @@ Data Analysis Process of "Single-cell and spatial transcriptomics reveal the mol
 
 For citation or to learn more, please visit our article: xxxx
 
-For data access, please visit: https://ngdc.cncb.ac.cn/, the BioProject ID is PRJCA015229. <br><br><br>
+For bulk RNA-seq access, please visit: https://ngdc.cncb.ac.cn/gsa-human/s/aBR4OloA. <br><br><br>
+
+For scRNA-seq and spatial data access, please visit: https://ngdc.cncb.ac.cn/gsa-human/s/6R3na3yw. <br><br><br>
 
 
 Below is the specific content introduction of the code file：
